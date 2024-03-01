@@ -2,7 +2,7 @@
 import { Container, Card, Button } from "react-bootstrap";
 import Link from "next/link";
 
-function CardComponent({title, description}) {
+function CardComponent({title, description, id}) {
     const title_length = title.length
     const body_length = description.length
     if (title_length>20){
@@ -20,7 +20,7 @@ function CardComponent({title, description}) {
                     {description}
                 </Card.Text>
 
-                <Link href="/blog">
+                <Link href={`/blog/${id}`}>
                     <Button variant="primary">
                         Details
                     </Button>

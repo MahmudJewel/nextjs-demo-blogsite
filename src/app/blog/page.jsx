@@ -16,7 +16,7 @@ export default async function Page() {
 
           {all_posts.map(post =>
             <Col md={4} className="my-2">
-              <CardComponent title={post.title} description={post.body}/>
+              <CardComponent title={post.title} description={post.body} id={post.id}/>
             </Col>
           )}
 

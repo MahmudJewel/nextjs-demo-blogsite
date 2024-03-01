@@ -10,8 +10,9 @@ export default function Home() {
     <>
       <Container >
         <br />
-        <h1 className="text-center">Welcome to blog page</h1>
-        <p>This is a dammy project using Nextjs(Stable app router). You can explore new app router, Nextjs Link properties etc. Hers is some features:</p>
+        <h1 className="text-center">Welcome to Blog Home Page</h1>
+        <p>This is a dammy project using Nextjs(Stable app router). You can explore new app router, Nextjs Link properties etc.</p> <br /> 
+        <b><big>Features:</big></b>
         <ul>
           <li>Router</li>
           <li>Dynamic router</li>
