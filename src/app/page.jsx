@@ -19,7 +19,10 @@ export default function Home() {
           <li>Nextjs Link property</li>
           <li>Server Side Component</li>
           <li>Client Side component</li>
-          <li>Data Fetching</li>
+          <li>Data fetching</li>
+          <li>Lazy loading</li>
+          <li>Custom Error page</li>
+          <li>Parallel request(fetch) handling using Promise</li>
         </ul>
         <br />
         <Row className="d-flex justify-content-center">
